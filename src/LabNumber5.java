@@ -7,23 +7,20 @@ import java.util.Scanner;
 
 public class LabNumber5 {
     public static void main(String[] args) {
-        //   Random randGen = (int) (Math.random(roll(userInput));  // New random number generator
         int userInput;
-        String answer;
-        //   int randGen = (int) (Math.random());
+    //    String answer;
 
         Scanner scan = new Scanner(System.in);
 
 
         System.out.println("Welcome to the Grand Circus Casino!");
-        //       scan.nextInt();
 
-            System.out.print("How many sides should each die have?  ");
-            userInput = scan.nextInt();
+        System.out.print("How many sides should each die have?  ");
+        userInput = scan.nextInt();
 
-            System.out.println("Roll 1...");
-            System.out.println(roll(userInput));
-            System.out.println(roll(userInput));
+        System.out.println("Roll 1...");
+        System.out.println(roll(userInput));
+        System.out.println(roll(userInput));
 
 
         /*    do {
