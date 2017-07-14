@@ -26,11 +26,12 @@ public class LabNumber5 {
             System.out.println(roll(userInput));
 
 
-            do {
+        /*    do {
                 System.out.println("Roll again? (y/n):   ");
                 answer = scan.nextLine();
                 System.out.println();
             } while (answer.equalsIgnoreCase("yes"));
+        */
         }
 
     public static int roll(int n) {
